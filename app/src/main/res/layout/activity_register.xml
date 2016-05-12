@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:alpha="200"
+    android:id="@+id/background"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Name:"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editName"
+        android:layout_height="wrap_content"
+        android:background="#8effffff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Age:"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editAge"
+        android:background="#8effffff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Username:"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editUsername"
+        android:layout_height="wrap_content"
+        android:background="#8effffff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Password:"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editPassword"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:background="#8effffff"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:onClick="onSignUpClick" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/registrationimage"
+        android:layout_weight="0.20" />
+
+</LinearLayout>

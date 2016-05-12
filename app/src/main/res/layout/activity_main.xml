@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fffdff">
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:text="Daffy's Style"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+        android:inputType="text"
+        android:textColor="#d689d8"
+        android:textSize="45dp"
+        android:id="@+id/tvMain" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Shop now..."
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ebadfc"
+        android:id="@+id/test" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/firstimg" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#844f8b"
+        android:background="#fefbfb"
+        android:textSize="20dp"
+        android:textStyle="bold" />-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Username:"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editUsername"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Password:"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editPassword"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#844f8b"
+        android:background="#fefbfb"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onLogIn" />
+</LinearLayout>
