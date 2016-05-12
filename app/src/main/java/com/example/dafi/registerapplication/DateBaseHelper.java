@@ -18,7 +18,7 @@ public class DateBaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_PASSWORD= "password";
     private static final String COLUMN_AGE = "age";
 
-    private static final String CREATE_TABLE ="create table users (INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "+
+    private static final String CREATE_TABLE ="create table users (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "+
             "name text unique not null, username text not null, password text not null, age integer not null)";
 
     SQLiteDatabase db;
